@@ -59,11 +59,11 @@ class Account {
 		return accountNumber;
 	}
 	
+	//계좌정보를 조회하다.
+	public void printAccount() {
+		System.out.printf("계좌번호 : %s, 이름 : %s, 비밀빈호 : %s, 잔고 : %,d원%n", 
+				accountNumber, name, pwd, balance);
+	}
+	
 }
-
-
-
-
-
-
 
